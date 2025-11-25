@@ -1,25 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      font-size: 1rem;
-      padding: 1rem;
-      line-height: 1.5;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
-<title> Mathematical Foundations of Deep Learning Models and Algorithms</title>
-<!--<BODY BACKGROUND="background.gif" RGB="#000000" TEXT="#000000"
-LINK="#0000DD" VLINK="#6666CC">-->
-<body>
+<head>
+<title>Mathematical Foundations of Deep Learning Models and Algorithms</title>
+
+<!-- Mobile responsive layout -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN3506K9HP"></script>
@@ -27,69 +12,112 @@ LINK="#0000DD" VLINK="#6666CC">-->
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-EN3506K9HP');
 </script>
 
-	<style type="text/css">
-      html{
-        background-position:center top;
-        background-repeat:no-repeat;
-        width:800px;
-        margin:auto;
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+  /* All images responsive */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Book cover specific sizing */
+.book-cover {
+    max-width: 250px;   /* desktop size */
+}
+
+/* Mobile size */
+@media (max-width: 600px) {
+    .book-cover {
+        max-width: 180px;
     }
-    </style>
+}
+
+  .header-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .book-info {
+    flex: 1;
+    min-width: 250px;
+  }
+
+  hr {
+    margin: 2rem 0;
+  }
+
+  center a {
+    margin: 0 .5rem;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+</style>
+
+</head>
+<body>
+
 <a name="top"></a>
 
+<div class="header-container">
+  <img src="gsm-252-01.jpg" class="book-cover" alt="Book Cover">
 
-<table cols="3" nosave="" width="24%" height="24%">
-   <tbody>
-     <tr>
-     <td><img src="gsm-252-01.jpg" width="250" height="350" border="0" alt=""></td>
-     <td>                                     
-              
-    <table border="0" cols="1" width="750" height="250" nosave="" class="table">
- 
-    <tbody><tr><td><h2>Mathematical Foundations of Deep Learning Models and Algorithms</h2><br>    
- 		   <h3><a href="https://bookstore.ams.org/view?ProductCode=GSM/252&_zs=hX3BH1&_zl=C09q7">Published by the American Mathematical Society (AMS) in 2025</a></h3><br>          
-                  <h4><a href="http://math.bu.edu/people/kspiliop/">Konstantinos Spiliopoulos </a> and
-                   <a href="http://publish.illinois.edu/r-sowers/">Richard Sowers </a> and 
-                   <a href="https://www.maths.ox.ac.uk/people/justin.sirignano">Justin Sirignano </a></h4><br>
-              </td>
-          </tr>                                                                                                                             
-                                   
-   </tbody>                                                                                                                          
-  
-   </table>  
-   
-</td> 
-</tr>
+  <div class="book-info">
+    <h2>Mathematical Foundations of Deep Learning Models and Algorithms</h2>
+    <h3>
+      <a href="https://bookstore.ams.org/view?ProductCode=GSM/252&_zs=hX3BH1&_zl=C09q7">
+        Published by the American Mathematical Society (AMS) in 2025
+      </a>
+    </h3>
+    <h4>
+      <a href="http://math.bu.edu/people/kspiliop/">Konstantinos Spiliopoulos</a>,
+      <a href="http://publish.illinois.edu/r-sowers/">Richard Sowers</a>,
+      <a href="https://www.maths.ox.ac.uk/people/justin.sirignano">Justin Sirignano</a>
+    </h4>
+  </div>
+</div>
 
-</tbody>
+<hr>
 
-</table>
+<center>
+[ <a href="#Description">Book Description</a> |
+  <a href="#Citing">Book Citation</a> |
+  <a href="#Contents">Table of Contents</a> |
+  <a href="#CodeExercises">Code and Exercises</a> |
+  <a href="#Errata">Errata</a> ]
+</center>
+
+<hr>
+
+<h3><a name="Description"></a>Book Description</h3>
+
 <p>
-<hr><p>
-<CENTER>
-			<A NAME="Choices"></A>[<A HREF="#Description">Book Description</A> | <A HREF="#Citing">Book Citation</A> | <A HREF="#Contents">
-				Table of Contents</A> | <A HREF="#CodeExercises">
-				Code and Exercises</A> | <A HREF="#Errata">Errata</A> ]
-		</CENTER>
-
-	
-<p>
-<hr><p>
-
- <H3><A NAME="Description"></A></H3>
-
-<h3> Book Description </h3>
-
 Deep learning uses multi-layer neural networks to model complex data patterns. Large models—with millions or even billions of parameters—are trained on massive datasets. 
 This approach has produced revolutionary advances in image, text, and speech recognition and also has potential applications in a range of other fields such as engineering, finance, mathematics, and medicine.<BR><BR>
+</p>
 
-<b>What you will learn:</b> The book  <a href="https://bookstore.ams.org/view?ProductCode=GSM/252&_zs=hX3BH1&_zl=C09q7">"Mathematical Foundations of Deep Learning Models and Algorithms", published by the American Mathematical Soiety (AMS) </a>
-aims to serve as an introduction to the mathematical theory underpinning the recent advances in deep learning. 
-	Detailed derivations as well as mathematical proofs are presented for many of the models and optimization methods which are commonly used in machine learning and deep learning. Applications, code, and 
+<p><b>What you will learn:</b> The book 
+<a href="https://bookstore.ams.org/view?ProductCode=GSM/252&_zs=hX3BH1&_zl=C09q7">
+"Mathematical Foundations of Deep Learning Models and Algorithms"</a>
+aims to serve as an introduction to the mathematical theory underpinning recent advances in deep learning. Detailed derivations as well as mathematical proofs are presented for many of the models and optimization methods which are commonly used in machine learning and deep learning. Applications, code, and 
 	practical approaches to training models are also included.<BR><BR>
 
 The book is designed for advanced undergraduates, graduate students, practitioners, and researchers. Divided into two parts, it begins with mathematical foundations before tackling advanced topics
@@ -131,19 +159,16 @@ Thoughtfully designed exercises and a companion website with code examples enhan
 
 <BR><BR>
 
-<a class="toplink" name="1" href="#top">top</a>
+</p>
 
-	
-<p><hr><p>
-	
-<H3><A NAME="Citing"></A></H3>
+<p><a class="toplink" href="#top">top</a></p>
 
-<h3> Book Citation </h3>
+<hr>
 
-To properly cite the book use the following bibtex entry
+<h3><a name="Citing"></a>Book Citation</h3>
 
+<p>To properly cite the book use the following bibtex entry:</p>
 
-<tt>
 <pre>
 @book{MathDLBook-2025,
     title={Mathematical Foundations of Deep Learning Models and Algorithms},
@@ -153,29 +178,20 @@ To properly cite the book use the following bibtex entry
     year={2025}
 }
 </pre>
-</tt>
 
+<p><a class="toplink" href="#top">top</a></p>
 
+<hr>
 
+<h3><a name="Contents"></a>Table of Contents</h3>
 
-
-
-<a class="toplink" name="2" href="#top">top</a>
-<p><hr><p>
-
-<H3><A NAME="Contents"></A></H3>
-
-
-<h3> Table of Contents </h3>
-
-The book is organized as follows 
-
+<p>The book is organized as follows:</p>
 
 <ul>
-<li> <a href="gsm-252-toc.pdf" target="_blank" class="btn btn-primary">  Table of Contents (detailed)</a> <BR> </li>
-<li> <a href="gsm-252-pref.pdf" target="_blank" class="btn btn-primary">  Preface </a> <BR> </li>
-<li> Notation <BR> </li>
-<li> Website <BR> </li>
+  <li><a href="gsm-252-toc.pdf" target="_blank">Table of Contents (detailed)</a></li>
+  <li><a href="gsm-252-pref.pdf" target="_blank">Preface</a></li>
+  <li>Notation</li>
+  <li>Website</li>
 <li> Chapter 1. Introduction <BR></li>
 <li> <h4> Part 1. Mathematical Introduction to Deep Learning </h4>
      <ul>
@@ -219,26 +235,17 @@ The book is organized as follows
 <li> <a href="gsm-252-index.pdf" target="_blank" class="btn btn-primary">  Index</a>  <BR> </li>
 </ul>
 
+<p><a class="toplink" href="#top">top</a></p>
 
+<hr>
 
-
-
-
-
-<a class="toplink" name="3" href="#top">top</a>
+<h3><a name="CodeExercises"></a>Code and Exercises</h3>
 
 <p>
-<hr><p>
-<H3><A NAME="CodeExercises"></A></H3>
-
-<h3> Code and Exercises </h3>
-
 The Python code and datasets accompanying the different chapters of the book can be found at the dedicated GitHub site.
 They provide reproducible experiments and solutions to selected exercises.
-
-<BR><BR>
-	
-<a href="https://github.com/MathDL/MathDLBookCode">Access all python code associated with the book!</a><BR>
+<br><br>
+<a href="https://github.com/MathDL/MathDLBookCode">Access all Python code associated with the book!</a>
 
 <BR><BR>
 
@@ -246,27 +253,22 @@ A number of exercises have been included to aid the reader in a
 better comprehension of the material. A solutions manual is available to the instructor of a class using this
 book upon request from the publisher.
 
+</p>
 
-<BR><BR>
+<p><a class="toplink" href="#top">top</a></p>
 
-<a class="toplink" name="4" href="#top">top</a>
+<hr>
+
+<h3><a name="Errata"></a>Errata</h3>
 
 <p>
-<hr><p>
-<H3><A NAME="Errata"></A></H3>
+Errata in the published editions will be maintained here:
+<a href="https://github.com/MathDL/MathDLBookErrata">Collecting Errata</a>.
+</p>
 
-<h3> Errata </h3>
+<p><a class="toplink" href="#top">top</a></p>
 
+<hr>
 
-Errata in the published editions of the book will be maintained here:  <a href="https://github.com/MathDL/MathDLBookErrata">Collecting Errata for the book</a>.
-
-<BR><BR>
-
-<a class="toplink" name="5" href="#top">top</a>
-
-<p><hr><p>
-
-
-
- </body>
+</body>
 </html>
